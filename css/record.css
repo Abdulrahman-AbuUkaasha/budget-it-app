@@ -1,0 +1,46 @@
+.balance{
+    align-items: center;
+    background-color: goldenrod;
+    color: black;
+    display: flex;
+    font-weight: 700;
+    height: 35px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 170px;
+}
+
+.balanceBoard{
+    margin-left: 20px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.parent tr:nth-child(odd){
+    background-color: lightgrey;
+}
+
+.tbl{
+    width: 100%;
+}
+.butt{
+    align-items: center;
+    background-color: grey;
+    color: #ffffff;
+    display: flex;
+    font-weight: 700;
+    height: 35px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 170px;
+}
+
+.butt_2{
+    margin-left: 20px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/favicon.ico">
+</head>
+<body>
+    <div class="show">
+        <h3>Available Budget in August 2023</h3>
+        <div class="balance">Balance<span class="balanceBoard"> 0.00</span></div>
+        <div class="income">INCOME <span class="totalIncVal"> +0.00</span></div>
+        <div class="expenses">EXPENSES <span class="totalExpVal"> -0.00</span></div>
+    </div>
+<div class="add">
+   <select class="selection" name="arithmetic" id="operation">
+    <option value="addition">+</option>
+    <option value="subtraction">-</option>
+   </select>   
+   <input id="description" type="text" placeholder="Add description">
+   <input id="val" type="number" placeholder="cost">
+   <button class="btn_e">enter</button>
+</div >
+    <div class="parent">
+        <div class="child_1">
+            <table class="tbl">
+                <thead>
+                    <tr>
+                        <td id="inc">INCOME</td>
+                        <td id="exp">PRICE</td>
+                    </tr>
+                </thead>
+                <tbody class="tblInc">
+                    <!-- <tr>
+                        <td>salary</td>
+                        <td>25,000</td>
+                    </tr>
+                    <tr>
+                        <td>allowance</td>
+                        <td>8,000</td>
+                    </tr>
+                    <tr>
+                        <td>gift</td>
+                        <td>3,000</td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+        <div class="child_2">
+            <table class="tbl">
+                <thead>
+                    <tr>
+                        <td id="inc">EXPENSES</td>
+                        <td id="exp">PRICE</td>
+                    </tr>
+                </thead>
+                <tbody class="tblExp">
+                    <!-- <tr>
+                        <td>transportation</td>
+                        <td>5,000</td>
+                    </tr>
+                    <tr>
+                        <td>food</td>
+                        <td>8,000</td>
+                    </tr>
+                    <tr>
+                        <td>cloths</td>
+                        <td>3000</td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<script src="./js/budgets.js"></script>
+</body>
+</html>
